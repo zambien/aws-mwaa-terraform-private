@@ -28,7 +28,7 @@ variable "private_subnet_cidrs" {
 variable "mwaa_max_workers" {
   type        = number
   description = "Maximum number of MWAA workers."
-  default     = 2
+  default     = 1
 }
 
 variable "client_vpn_cidr_block" {
