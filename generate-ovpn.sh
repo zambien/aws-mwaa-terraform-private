@@ -1,4 +1,4 @@
-#!/usr/bin/env bash -e
+#!/bin/bash
 
 ovpn_file="mwaa.ovpn"
 aws=$(which aws)
